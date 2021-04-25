@@ -4,6 +4,12 @@
 */
 module.exports = {
     /**
+    * 生成组件时的 id 前缀。
+    * 建议保留现状。
+    */
+    idPrefix: 'definejs-View',
+
+    /**
     * 针对移动端的。
     */
     ViewSlider: null,   

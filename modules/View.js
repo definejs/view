@@ -9,7 +9,7 @@ function View(container, config) {
 
     Panel.call(this, container, config);
 
-    this.$.addClass('definejs-view'); //这两个类名必须加上。
+    this.$.addClass('definejs-View'); //这两个类名必须加上。
 
     if (config.background) {
         this.$.css('background', config.background);
